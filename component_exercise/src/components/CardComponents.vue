@@ -21,6 +21,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.card {
+    border-radius: 15px;
+}
+
 
 </style>
