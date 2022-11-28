@@ -1,7 +1,8 @@
 <template>
-    <div>
-        <hr>
-        <p style="text-align: center;">© Copyright Mas Alief Elza - Nopember 2022</p>
+    <div class="text-white bg-secondary">
+        <br>
+        <p style="text-align: center; height: 10px;">© Copyright Mas Alief Elza - Nopember 2022</p>
+        <br>
     </div>
 </template>
 

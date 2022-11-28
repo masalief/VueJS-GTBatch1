@@ -15,18 +15,14 @@
                   <h3>Chair Thatty</h3>
                   <p>IDR 12.000.000</p>
                   <div class="btn" id="buttoncart">
-                    <a href="#" class="text-dark" type="button"><img src="../assets/img/cart-icon.png"> Add to Cart</a>
+                    <a href="#" class="addcart text-dark" type="button"><img src="../assets/img/cart-icon.png"> Add to Cart</a>
                   </div>
                   <hr>
                   <p>About the Product</p>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                      Rem odio iste cum laborum blanditiis saepe, officiis similique 
-                      ducimus, iure cupiditate suscipit voluptatum accusamus assumenda 
-                      recusandae minus aperiam eaque consequatur? Magni.</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, 
-                      laudantium optio libero earum facere illum aperiam architecto 
-                      pariatur repellat iste accusamus amet distinctio similique illo 
-                      tempora? Dolores corrupti molestias quod!</p>
+                  <p>Tailored to a level of perfection synonymous with that of a Savile Row 
+                    suit and with understanded quality in the detail, Jetty has been influenced by timeless 1950s style.</p>
+                  <p>Providing a subtle nod to the past, Jetty also provides a perfect solution for the way we work today.
+                    A comprehensive product family, Jetty features a variety of elegant chairs and sofas.</p>
               </div>
           </div>
       </div>
@@ -49,7 +45,11 @@ export default {
 
 #buttoncart {
     border-radius: 25px;
-    background-color: salmon;
+    background-color: lightpink;
+}
+
+.addcart {
+    text-decoration: none;
 }
 
 </style>

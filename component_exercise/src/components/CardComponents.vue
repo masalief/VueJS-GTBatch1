@@ -1,5 +1,6 @@
 <template>
-    <div class="row py-5 ml-4">
+<div>
+    <div class="row py-5 ml-1">
         <div class="col-3">
         <div class="card" style="width: 21rem;">
             <img id="gambar1"  class="card-img-top" :src="require( '@/assets/img/' + cardImage + '.png')" alt="Card Kursi">
@@ -10,6 +11,7 @@
           </div>
         </div>
     </div>
+</div>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
     <div class="menu-footer d-flex flex-row justify-content-around mt-5 mb-5">
-        <div class="overview">
+        <div id="overviewid" class="overview">
             <a class="text-dark" href=""><b>Overview</b></a>
             <br>
             <a class="text-dark" href="form_shipping.html">Shipping</a>
@@ -44,6 +44,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+
 
 </style>
