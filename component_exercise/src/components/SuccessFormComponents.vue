@@ -2,7 +2,7 @@
     <div class="card-body border-color-dark">
         <h5 class="card-title">Terima Kasih!</h5>
         <p class="card-text" >Data Anda Telah di Submit</p>
-        <router-link to="/detail" class="btn btn-dark text-light">Back</router-link>
+        <router-link to="/detail" class="btn btn-dark text-success">Back</router-link>
     </div>
 </template>
 
