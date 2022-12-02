@@ -3,7 +3,7 @@
         <div id="overviewid" class="overview">
             <a class="text-dark" href=""><b>Overview</b></a>
             <br>
-            <a class="text-dark" href="form_shipping.html">Shipping</a>
+            <router-link to="FormShipping" class="text-dark">Shipping</router-link>
             <br>
             <a class="text-dark" href="">Refund</a>
             <br>

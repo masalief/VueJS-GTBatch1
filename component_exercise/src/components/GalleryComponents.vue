@@ -9,13 +9,13 @@
                   <img id="rounded" src="../assets/img/side-1.png" alt="" style="width: 70%;">
               </div>
               <div class="col-6 rounded-circle">
-                  <img id="gambarutama" src="../assets/img/chair.png" alt="">
+                  <img :src="require('@/assets/img/' + imgLink + '.png')" :style="stylingProps" alt="Kursi Utama" id="gambarutama">
               </div>
               <div class="col-4 mt-3">
                   <h3>Chair Thatty</h3>
                   <p>IDR 12.000.000</p>
                   <div class="btn" id="buttoncart">
-                    <a href="#" class="addcart text-dark" type="button"><img src="../assets/img/cart-icon.png"> Add to Cart</a>
+                     <router-link to="FormShipping" class="addcart text-dark" type="button"><img src="../assets/img/cart-icon.png"> Add to Cart</router-link>
                   </div>
                   <hr>
                   <p>About the Product</p>
@@ -30,7 +30,8 @@
 
 <script>
 export default {
-    name : "GalleryComponents",
+    name : "MainPage",
+    props : ['imgLink', "stylingProps"]
 };
 </script>
 

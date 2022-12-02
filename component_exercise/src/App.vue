@@ -1,38 +1,21 @@
 <template>
-
-<div id="app">
-    <NavbarComponents></NavbarComponents>
-    <BreadcrumbComponents></BreadcrumbComponents>
-    <GalleryComponents></GalleryComponents>
-    <SliderComponents></SliderComponents>
-    <FooterComponents></FooterComponents>
-    <CopyrightComponents></CopyrightComponents>
-</div>
-
+  <div id="app">
+    <!-- <Detail></Detail> -->
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-import NavbarComponents from "./components/NavbarComponents.vue"
-import BreadcrumbComponents from './components/BreadcrumbComponents.vue'
-import GalleryComponents from './components/GalleryComponents.vue'
-import SliderComponents from './components/SliderComponents.vue'
-import FooterComponents from './components/FooterComponents.vue'
-import CopyrightComponents from './components/CopyrightComponents.vue'
+// import Detail from './pages/Detail.vue';
 
-export default {    
+
+export default {
     name: "App",
-    
-    components : {
-        NavbarComponents,
-        BreadcrumbComponents,
-        GalleryComponents,
-        SliderComponents,
-        FooterComponents,
-        CopyrightComponents,
-    },
-};
+    // components: { Detail }
+}
+
 </script>
 
-<style>
-    
+<style lang="scss" scoped>
+
 </style>
